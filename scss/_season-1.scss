@@ -1,0 +1,63 @@
+.menu__list-link--active{
+
+    color: rgba(133, 204, 220, 1);
+    text-decoration: underline;
+}
+.menu__btn{
+  display: none;
+}
+.menu__container{
+  max-width: 1385px;
+  margin: 0 auto;
+  position: relative;
+}
+.page-logo {
+  position: absolute;
+}
+
+
+.page-header{
+  background-image: url('../images/season-1-bg.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+  position: relative;
+}
+.season-info{
+  position: absolute;
+  max-width: 1385px;
+  display: flex;
+  padding: 44px 47px 64px 35px;
+  background-color: #0E0E0E;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.season-info__num{
+  font-weight: bold;
+  font-size: 96px;
+  line-height: 56px;
+  color: #FFFFFF;
+  margin-right: 51px;
+  text-align: center;
+}
+
+.season-info__num span{
+  display: block;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  color: #FFFFFF;
+
+}
+
+.season__info-text p{
+  font-size: 18px;
+  line-height: 21px;
+
+  color: #FFFFFF;
+  margin-bottom: 15px;
+}
